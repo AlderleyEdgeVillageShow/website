@@ -374,3 +374,7 @@ footer {
 	display: flex;
 	gap: 5%;
 }
+
+ul.no-bullets {
+	list-style-type: none; /* Remove bullets */
+}
