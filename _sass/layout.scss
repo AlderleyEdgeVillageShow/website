@@ -8,7 +8,6 @@
 }
 
 header {
-	padding-bottom: 50px;
 
 	@media #{$desktop} {
 		.container {
@@ -80,7 +79,6 @@ nav .button {
 			display: inline-block;
 			line-height: 0;
 			background: white;
-			margin-top: -40px;
 			padding: 10px;
 			box-shadow: 2px 7px 39px 9px #f7f7f7;
 			border-radius: 50px;
@@ -361,7 +359,7 @@ footer {
 
 .darker {
 	background: #f8fafb;
-	padding: 60px 0;
+	//padding: 60px 0;
 }
 
 .align-center {
@@ -377,4 +375,5 @@ footer {
 
 ul.no-bullets {
 	list-style-type: none; /* Remove bullets */
+	padding: 0;
 }
