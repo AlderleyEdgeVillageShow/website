@@ -42,3 +42,6 @@ This site uses the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) pl
 2. Find the embed code for the sign up form
 3. Copy the `<form>`'s action url
 4. Paste it into `newsletter_action` in `_config.yml`
+
+
+https://app.taggbox.com/widget/wall/index/138479

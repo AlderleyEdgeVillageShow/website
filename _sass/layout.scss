@@ -49,12 +49,6 @@ header, nav {
 	text-align: center;
 }
 
-nav .button {
-	position: absolute;
-	right: 35px;
-	top: 4px;
-}
-
 .thirds {
 	@media #{$desktop} {
 		display: flex;
@@ -94,9 +88,10 @@ nav .button {
 		}
 	}
 }
+
 blockquote {
 	padding: 0;
-	margin: 120px 0 70px 0;
+	margin: 20px 0 70px 0;
 	position: relative;
 
 	.quote {
@@ -376,4 +371,9 @@ footer {
 ul.no-bullets {
 	list-style-type: none; /* Remove bullets */
 	padding: 0;
+}
+
+.macmillan {
+	color: #0faa4b;
+	font-weight: 1000;
 }
