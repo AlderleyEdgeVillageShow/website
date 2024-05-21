@@ -60,6 +60,11 @@ header, nav {
 	padding: 0;
 	list-style: none;
 
+	a {
+		text-decoration:none;
+		color: inherit;
+	}
+
 	li {
 		flex: 1 1 250px;
 		width: 100%;
@@ -87,6 +92,28 @@ header, nav {
 			padding: 5px;
 		}
 	}
+}
+
+.center {
+	.container {
+		justify-content: left;
+		padding: 20px 30px;
+		@media #{$desktop} {
+			align-items: center;
+		}
+		div {
+			@media #{$desktop} {
+				margin: 0;
+				align-items: center;
+			}
+			margin: 20px 0;
+			box-sizing: content-box;
+			padding: 0 25px;
+			justify-content: center;
+			text-align: center;
+		}
+	}
+
 }
 
 blockquote {

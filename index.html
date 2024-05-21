@@ -50,55 +50,99 @@ title: The Alderley Edge Village Show
         <hr>
         <ul class="thirds">
             <li>
-                <div class="image">{% include icons/site.html icon="tomato" %}</div>
-                <h3>Fruit &amp; Vegetables</h3>
-                <p>The original &amp; biggest category, perfectly dressed Onions to the longest runner
-                    bean.</p>
+                <a href="#tomato">
+                    <div class="image">{% include icons/site.html icon="tomato" %}</div>
+                    <h3>Fruit &amp; Vegetables</h3>
+                    <p>The original &amp; biggest category, perfectly dressed Onions to the longest runner
+                        bean.</p>
+                </a>
             </li>
             <li>
-                <div class="image">{% include icons/site.html icon="craft" %}</div>
-                <h3>Domestic Crafts</h3>
-                <p>Including Knitting, Crochet, Embroidery, cross-stitch or anything creative.</p>
+                <a href="#craft">
+                    <div class="image">{% include icons/site.html icon="craft" %}</div>
+                    <h3>Domestic Crafts</h3>
+                    <p>Including Knitting, Crochet, Embroidery, cross-stitch or anything creative.</p>
+                </a>
             </li>
             <li>
-                <div class="image">{% include icons/site.html icon="camera" %}</div>
-                <h3>Photography</h3>
-                <p>Whether Digital or Film, enter your snapshots that capture subjects or landscapes.</p>
+                <a href="#camera">
+                    <div class="image">{% include icons/site.html icon="camera" %}</div>
+                    <h3>Photography</h3>
+                    <p>Whether Digital or Film, enter your snapshots that capture subjects or landscapes.</p>
+                </a>
             </li>
             <li>
-                <div class="image">{% include icons/site.html icon="cooking" %}</div>
-                <h3>Cookery</h3>
-                <p>From Bread to Cake to Jams and Chutney, a category for all the tasty delights.</p>
+                <a href="#cooking">
+                    <div class="image">{% include icons/site.html icon="cooking" %}</div>
+                    <h3>Cookery</h3>
+                    <p>From Bread to Cake to Jams and Chutney, a category for all the tasty delights.</p>
+                </a>
             </li>
             <li>
-                <div class="image">{% include icons/site.html icon="flower" %}</div>
-                <h3>Flowers</h3>
-                <p>Get growing your beautiful Gladioli &amp; Dahlias, or blow the judges away with a
-                    special Cactus or Succulent</p>
+                <a href="#flower">
+                    <div class="image">{% include icons/site.html icon="flower" %}</div>
+                    <h3>Flowers</h3>
+                    <p>Get growing your beautiful Gladioli &amp; Dahlias, or blow the judges away with a
+                        special Cactus or Succulent</p>
+                </a>
             </li>
             <li>
-                <div class="image">{% include icons/site.html icon="children" %}</div>
-                <h3>Under 18's</h3>
-                <p>Let the young ones be creative and show their talents.</p>
+                <a href="#children">
+                    <div class="image">{% include icons/site.html icon="children" %}</div>
+                    <h3>Under 18's</h3>
+                    <p>Let the young ones be creative and show their talents.</p>
+                </a>
             </li>
             <li>
-                <div class="image">{% include icons/site.html icon="heart" %}</div>
-                <h3>New Entrants</h3>
-                <p>A category for the Newcomers, dip your toe in the water of the show, next year you could
-                    be show winner.</p>
+                <a href="#heart">
+                    <div class="image">{% include icons/site.html icon="heart" %}</div>
+                    <h3>New Entrants</h3>
+                    <p>A category for the Newcomers, dip your toe in the water of the show, next year you could
+                        be show winner.</p>
+                </a>
             </li>
         </ul>
     </div>
 </div>
 
 <div class="container" id="schedule">
+
     <h2 class="title">Schedule Of Classes</h2>
     <hr>
+
     <div>
-        <p>
-            The 2024 Schedule of Classes is currently being finalised by the committee, please check back here soon or
+        <p>The schedule of classes is defined alongside their category, a printable copy along with the entry form is
+            downloadable below...</p>
+        {% for classes in site.data.classes %}
+        <div class="center" id={{classes.icon}}>
+            <div class="classes">
+                <div class="image">{% include icons/site.html icon=classes.icon %}</div>
+                <h3>{{ classes.title }}</h3>
+                <hr/>
+            </div>
+            <div class="container">
+                <div class="items">
+
+                    {% for class in classes.classes %}
+                    <p class="classes-item">
+                        <span class="classes-item-number">{{ class.number }}.</span>
+                        <span class="classes-item-name">{{ class.name }}</span>
+                    </p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div>
+        <hr/>
+        <p class="align-center">
+            The printed version of the 2024 Schedule of Classes and entry form is currently being finalised by the
+            committee, please check back here soon or
             follow us on Social Media for updates.
         </p>
+        <hr/>
+
         <!--        <p>This year's Schedule of Classes and Entry-Form will be available to collect from the following locations from-->
         <!--            June onwards, or click the Download link below to print one for yourself.</p>-->
         <!--        <div class="thirds">-->
@@ -126,7 +170,7 @@ title: The Alderley Edge Village Show
         <!--            <a download href="/images/village-show-schedule-2023.pdf">{% include icons/site.html icon="download" %}-->
         <!--                Download the Entry Form</a>-->
         <!--        </div>-->
-        <!--        <p class="align-center">Its not about the winning it's about the taking part...</p>-->
+        <p class="align-center">Its not about the winning it's about the taking part...</p>
     </div>
 </div>
 
@@ -135,7 +179,7 @@ title: The Alderley Edge Village Show
         <div class="align-center">
             <span class="image">{% include icons/site.html icon="charity" %}</span>
         </div>
-            <h2 class="title">Supporting Charity</h2>
+        <h2 class="title">Supporting Charity</h2>
         <hr>
         <div class="columns">
             <div>

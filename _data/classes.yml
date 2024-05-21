@@ -1,0 +1,242 @@
+- title: Flowers
+  icon: flower
+  classes:
+    - number: 1
+      name: 4 Spikes Gladioli
+    - number: 2
+      name: 3 Spikes Gladioli of one variety
+    - number: 3
+      name: 1 Spike Gladioli
+    - number: 4
+      name: 5 Pompom Dahlias
+    - number: 5
+      name: 5 small or miniature Decorative Dahlias
+    - number: 6
+      name: 5 small or miniature Cactus or semi Cactus Dahlias
+    - number: 7
+      name: 3 Dahlias of any kind
+    - number: 8
+      name: Display of Dahlias, own foliage only (judged for visual effect)
+    - number: 9
+      name: Fuchsia plant in flower - Pot not to exceed 15 cm internal diameter
+    - number: 10
+      name: Cactus or Succulent - Pot not to exceed 23 cm internal diameter
+    - number: 11
+      name: 6 Stems of Sweet Peas
+    - number: 12
+      name: Display of Sweet Peas - own foliage only max spread 60 cm
+    - number: 13
+      name: Plant in Flower - pot not to exceed 23 cm internal diameter
+    - number: 14
+      name: 3 Stems or spikes of Garden Flowers
+    - number: 15
+      name: 6 Stems or spikes of Garden Flowers (different varieties) Max 45 cm wide
+    - number: 16
+      name: Foliage Plant - pot not to exceed 15 cm internal diameter
+    - number: 17
+      name: Geranium/Pelargonium not exceeding 15 cm pot - upright plant not trailing
+- title: Fruit & Vegetables
+  icon: tomato
+  classes:
+    - number: 18
+      name: 5 different kinds of Vegetables/Fruit, displayed in a box, basket etc, not exceeding 75 x 60 cm
+    - number: 19
+      name: 3 different kinds of Vegetables/Fruit (potatoes excluded) displayed in a box, basket etc, not exceeding 50 x 60 cm
+    - number: 20
+      name: 6 Onions Dressed - grown from seed displayed in area 50 x 35 cm
+    - number: 21
+      name: 1 Onion Heaviest Dressed max stem 7.5 cm
+    - number: 22
+      name: 4 Onions Dressed - each not exceeding 12 oz in weight grown from sets
+    - number: 23
+      name: 4 Onions Dressed - each not exceeding 8 oz in weight grown from sets
+    - number: 24
+      name: 5 ordinary Tomatoes with stalks
+    - number: 25
+      name: 6 small Fruited or Cherry tomatoes
+    - number: 26
+      name: 3 Beef Steak tomatoes
+    - number: 27
+      name: 1 truss of tomatoes
+    - number: 28
+      name: 5 Apples
+    - number: 29
+      name: Plate one type of stone fruit (15 max) - not exceeding 23 cm in diameter
+    - number: 30
+      name: Pair of Marrows not exceeding 30cm
+    - number: 31
+      name: 1 Marrow (heaviest)
+    - number: 32
+      name: A miniature garden in a container not exceeding 30 cm (Adult)
+    - number: 33
+      name: 3 Courgettes with flower attached
+    - number: 34
+      name: 1 Runner Bean (longest)
+    - number: 35
+      name: 8 Runner Beans
+    - number: 36
+      name: 8 Dwarf Beans
+    - number: 37
+      name: 8 Pod of Peas
+    - number: 38
+      name: 3 Carrots
+    - number: 39
+      name: 3 Sweet Pepper of same variety
+    - number: 40
+      name: 1 Cabbage (roots washed in a clear polythene bag)
+    - number: 41
+      name: 3 Beetroot of same variety
+    - number: 42
+      name: 8 Shallots
+    - number: 43
+      name: 3 Leeks (long blanched)
+    - number: 44
+      name: 3 Garlic Bulbs of the same variety
+    - number: 45
+      name: 5 Potatoes White - on a plate not exceeding 23 cm in diameter
+    - number: 46
+      name: 5 Potatoes Coloured - on a plate not exceeding 23 cm in diameter
+    - number: 47
+      name: 1 Pumpkin (heaviest)
+    - number: 48
+      name: 3 Cobs of Corn (dressed)
+    - number: 49
+      name: Any other vegetables/fruit/herb - max 3 of one kind - not covered
+    - number: 50
+      name: 5 Chilli Peppers of the same type (any variety)
+    - number: 51
+      name: 1 Pair of Cucumbers
+    - number: 52
+      name: The longest Cucumber
+    - number: 53
+      name: A vegetable and/or fruit animal (18 yrs+)
+
+- title: The Newcomers Class
+  icon: heart
+  classes:
+   - number: 54
+     name: 3 Ordinary Tomatoes
+   - number: 55
+     name: Potatoes (3 white or 3 coloured)
+   - number: 56
+     name: 3 Runner Beans
+   - number: 57
+     name: 1 Courgette with flower
+   - number: 58
+     name: Vase of any 5 Garden Flowers
+   - number: 59
+     name: 1 Runner Bean (longest)
+- title: Domestic Crafts
+  icon: craft
+  classes:
+    - number: 60
+      name: Any kind of knitted garment for an adult
+    - number: 61
+      name: Any kind of knitted garment for an Baby/Young child
+    - number: 62
+      name: Any article of Creative Embroidery in your own design
+    - number: 63
+      name: Any article of Traditional Embroidery
+    - number: 64
+      name: Any article of Cross Stitch
+    - number: 65
+      name: Any small Item of Crochet
+    - number: 66
+      name: Any small Item of Pottery or Ceramic (inc Mosaics)
+    - number: 67
+      name: Paper Crafts (inc Cards)
+    - number: 68
+      name: Article of any other Craft
+    - number: 69
+      name: Any Soft Toy
+    - number: 70
+      name: A painting or drawing - any subject - max size 61 x 61 cm
+    - number: 71
+      name: Novelty Tea Cosy
+
+- title: Photography
+  icon: camera
+  classes:
+    - number: 72
+      name: Landscapes - digital or film
+    - number: 73
+      name: Pets  - digital or film
+    - number: 74
+      name: Wildlife - digital or film
+    - number: 75
+      name: A photo that best represents our village - digital or film
+- title: Cookery
+  icon: cooking
+  classes:
+    - number: 76
+      name: White Loaf - small
+    - number: 77
+      name: Wholemeal Loaf - small
+    - number: 78
+      name: 6 Bread Rolls
+    - number: 79
+      name: Artisan Loaf of any type
+    - number: 80
+      name: Fruit Cake
+    - number: 81
+      name: Chocolate Cake
+    - number: 82
+      name: 5 Scones
+    - number: 83
+      name: 5 Savoury Scones
+    - number: 84
+      name: Victoria Sandwich - jam filled, no icing
+    - number: 85
+      name: Lemon Drizzle Cake
+    - number: 86
+      name: 5 Cup Cakes
+    - number: 87
+      name: A Celebration Cake
+    - number: 88
+      name: A Fruit Pie
+    - number: 89
+      name: 5 Pieces of Shortbread
+    - number: 90
+      name: A Savoury Quiche (not fish)
+    - number: 91
+      name: Jam - Soft Fruit
+    - number: 92
+      name: Jam - Stoned Fruit
+    - number: 93
+      name: Jam - the main ingredient to be named
+    - number: 94
+      name: Lemon Curd
+    - number: 95
+      name: Marmalade
+    - number: 96
+      name: Fruit Jelly Preserve
+    - number: 97
+      name: Chutney - the main ingredient to be named
+    - number: 98
+      name: Pickles
+    - number: 99
+      name: Any 5 items from classes 76 - 99 displayed in a box or basket not to exceed 61 x 61 cm
+- title: Under 18'S
+  icon: children
+  classes:
+    - number: 100
+      name: 5 Cup Cakes
+    - number: 101
+      name: 5 Flapjack Biscuits
+    - number: 102
+      name: A flower Arrangement (age up to 17 years)
+    - number: 103
+      name: A painting or drawing - any subject - (age up to 7 years)
+    - number: 104
+      name: A painting or drawing - any subject - (age 8 - 17 years)
+    - number: 105
+      name: Tallest Sunflower (The Sunflower Challenge Cup) Validated Photo with entrant standing alongside
+    - number: 106
+      name: An 'animal' made from vegetable or fruit (age up to 12 years)
+    - number: 107
+      name: An 'animal' made from vegetable or fruit (age 13 to 17 years)
+    - number: 108
+      name: A miniature garden - in a tray maximum 36 x 22 cm
+    - number: 109
+      name: A Photographic Print (age up to 17 years)
+
