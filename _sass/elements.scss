@@ -88,7 +88,10 @@ form {
 
 .button a, input[type="submit"], input[type="text"] {
   border: 0;
-  padding: 15px 40px;
+  padding: 15px 20px;
+  @media #{$desktop} {
+    padding: 15px 40px;
+  }
   box-sizing: content-box;
   font-size: 1em;
   font-weight: 100;
@@ -102,6 +105,7 @@ form {
 }
 
 .button a {
+  margin-top: 10px;
   display: inline-block;
   text-decoration: none;
   border-radius: 30px;
@@ -114,10 +118,6 @@ form {
 
 .center {
   margin-top: 45px;
-
-  //.items {
-  //  text-align: justify;
-  //}
 
   & .image, h3 {
     text-align: center;

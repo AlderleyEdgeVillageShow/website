@@ -10,9 +10,9 @@
     - number: 4
       name: 5 Pompom Dahlias
     - number: 5
-      name: 5 small or miniature Decorative Dahlias
+      name: 5 Decorative Dahlias
     - number: 6
-      name: 5 small or miniature Cactus or semi Cactus Dahlias
+      name: 5 Cactus or semi Cactus Dahlias
     - number: 7
       name: 3 Dahlias of any kind
     - number: 8
@@ -55,19 +55,19 @@
     - number: 25
       name: 6 small Fruited or Cherry tomatoes
     - number: 26
-      name: 3 Beef Steak tomatoes
+      name: 3 BeefSteak Tomatoes
     - number: 27
-      name: 1 truss of tomatoes
+      name: 1 truss of Tomatoes
     - number: 28
       name: 5 Apples
     - number: 29
-      name: Plate one type of stone fruit (15 max) - not exceeding 23 cm in diameter
+      name: Plate one type of Stone Fruit (15 max) - not exceeding 23 cm in diameter
     - number: 30
       name: Pair of Marrows not exceeding 30cm
     - number: 31
       name: 1 Marrow (heaviest)
     - number: 32
-      name: A miniature garden in a container not exceeding 30 cm (Adult)
+      name: A Miniature Garden in a container not exceeding 30 cm (Adult)
     - number: 33
       name: 3 Courgettes with flower attached
     - number: 34
@@ -101,7 +101,7 @@
     - number: 48
       name: 3 Cobs of Corn (dressed)
     - number: 49
-      name: Any other vegetables/fruit/herb - max 3 of one kind - not covered
+      name: Any other Vegetables/Fruit/Herb - max 3 of one kind - not covered
     - number: 50
       name: 5 Chilli Peppers of the same type (any variety)
     - number: 51
@@ -109,7 +109,7 @@
     - number: 52
       name: The longest Cucumber
     - number: 53
-      name: A vegetable and/or fruit animal (18 yrs+)
+      name: A Vegetable and/or Fruit animal (18 yrs+)
 
 - title: The Newcomers Class
   icon: heart
@@ -130,9 +130,9 @@
   icon: craft
   classes:
     - number: 60
-      name: Any kind of knitted garment for an adult
+      name: Any kind of Knitted Garment for an adult
     - number: 61
-      name: Any kind of knitted garment for an Baby/Young child
+      name: Any kind of Knitted Garment for an Baby/Young child
     - number: 62
       name: Any article of Creative Embroidery in your own design
     - number: 63
@@ -150,7 +150,7 @@
     - number: 69
       name: Any Soft Toy
     - number: 70
-      name: A painting or drawing - any subject - max size 61 x 61 cm
+      name: A Painting or Drawing - any subject - max size 61 x 61 cm
     - number: 71
       name: Novelty Tea Cosy
 
@@ -164,7 +164,7 @@
     - number: 74
       name: Wildlife - digital or film
     - number: 75
-      name: A photo that best represents our village - digital or film
+      name: A Photo that best represents our Village - digital or film
 - title: Cookery
   icon: cooking
   classes:
@@ -203,7 +203,7 @@
     - number: 92
       name: Jam - Stoned Fruit
     - number: 93
-      name: Jam - the main ingredient to be named
+      name: Jam - Main ingredient to be named
     - number: 94
       name: Lemon Curd
     - number: 95
@@ -211,7 +211,7 @@
     - number: 96
       name: Fruit Jelly Preserve
     - number: 97
-      name: Chutney - the main ingredient to be named
+      name: Chutney - Main ingredient to be named
     - number: 98
       name: Pickles
     - number: 99
@@ -224,19 +224,19 @@
     - number: 101
       name: 5 Flapjack Biscuits
     - number: 102
-      name: A flower Arrangement (age up to 17 years)
+      name: A Flower Arrangement (age up to 17 years)
     - number: 103
-      name: A painting or drawing - any subject - (age up to 7 years)
+      name: A Painting or Drawing - any subject - (age up to 7 years)
     - number: 104
-      name: A painting or drawing - any subject - (age 8 - 17 years)
+      name: A Painting or Drawing - any subject - (age 8 - 17 years)
     - number: 105
       name: Tallest Sunflower (The Sunflower Challenge Cup) Validated Photo with entrant standing alongside
     - number: 106
-      name: An 'animal' made from vegetable or fruit (age up to 12 years)
+      name: An 'Animal' made from Vegetable or Fruit (age up to 12 years)
     - number: 107
-      name: An 'animal' made from vegetable or fruit (age 13 to 17 years)
+      name: An 'Animal' made from Vegetable or Fruit (age 13 to 17 years)
     - number: 108
-      name: A miniature garden - in a tray maximum 36 x 22 cm
+      name: A Miniature Garden - in a tray maximum 36 x 22 cm
     - number: 109
       name: A Photographic Print (age up to 17 years)
 

@@ -1,9 +1,11 @@
 .container {
 	max-width: 1000px;
 	width: 100%;
-	margin: 0 auto;
+	@media #{$desktop} {
+		margin: 0 auto;
+	}
 	position: relative;
-	padding: 50px 30px;
+	padding: 10px 10px;
 	box-sizing: border-box;
 }
 
@@ -34,7 +36,7 @@ header {
 	img {
 		margin: 100px auto 0 auto;
 		display: block;
-		max-width: 100%;
+		max-width: 98%;
 	}
 }
 
@@ -97,7 +99,7 @@ header, nav {
 .center {
 	.container {
 		justify-content: left;
-		padding: 20px 30px;
+		padding: 20px 0;
 		@media #{$desktop} {
 			align-items: center;
 		}
@@ -108,7 +110,7 @@ header, nav {
 			}
 			margin: 20px 0;
 			box-sizing: content-box;
-			padding: 0 25px;
+			//padding: 0 25px;
 			justify-content: center;
 			text-align: center;
 		}
@@ -182,7 +184,7 @@ blockquote {
 		margin: 0 0 0 15px;
 		vertical-align: middle;
 		img {
-			max-width: 100%;
+			max-width: 98%;
 			border-radius: 200px;
 		}
 	}
@@ -391,6 +393,7 @@ footer {
 }
 
 .buttons {
+	padding-top: 10px;
 	display: flex;
 	gap: 5%;
 }
@@ -407,4 +410,13 @@ ul.no-bullets {
 
 .contact {
 	text-align: center;
+	h3 {
+		font-size: 1.3em;
+	}
+	@media #{$desktop} {
+		h3 {
+			font-size: 1.8em;
+		}
+		padding-bottom: 30px;
+	}
 }
