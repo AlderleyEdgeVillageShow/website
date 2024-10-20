@@ -27,26 +27,40 @@
     {% endif %}
 </head>
 <body>
-<nav>
+<nav aria-label="Main Navigation">
     <div class="container">
-        <div class="column">
+        <div class="column centered">
+
             <div class="buttons">
                 <div class="button">
-                    <a href="/">Home</a>
+                    <a href="/">2025</a>
                 </div>
                 <div class="button">
-                    <a href="/history-2023">2023</a>
+                    <a href="/#contact">Contact</a>
                 </div>
-                <div class="button">
-                    <a href="#contact">Contact</a>
+                <div class="button dropdown">
+                    <a>Previous Years &#8964;</a>
+                    <div class="dropdown-content">
+                        <div class="button">
+                            <a href="/history-2023">2023</a>
+                        </div>
+                        <div class="button">
+                        <a href="/history-2024">2024</a>
+                        </div>
+                    </div>
                 </div>
+
+
             </div>
         </div>
     </div>
 </nav>
-<div class="content">
-    {{ content }}
-</div>
+<main>
+    <div class="content">
+        {{ content }}
+    </div>
+</main>
+
 <div class="darker">
     <div class="container" id="contact">
         <div class="align-center">
