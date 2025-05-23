@@ -146,97 +146,102 @@
     - number: 67
       name: Paper Crafts (inc Cards)
     - number: 68
-      name: Article of any other Craft
+      name: Article of any other soft Craft (textile materials)
     - number: 69
-      name: Any Soft Toy
+      name: Article of any other hard Craft (non-textile materials)
     - number: 70
-      name: A Painting or Drawing - any subject - max size 61 x 61 cm
+      name: Any Soft Toy
     - number: 71
+      name: A Painting or Drawing - any subject - max size 61 x 61 cm
+    - number: 72
       name: Novelty Tea Cosy
 
 - title: Photography
   icon: camera
   classes:
-    - number: 72
-      name: Landscapes - digital or film
     - number: 73
-      name: Pets  - digital or film
+      name: Landscapes - digital or film
     - number: 74
-      name: Wildlife - digital or film
+      name: Pets  - digital or film
     - number: 75
+      name: Wildlife - digital or film
+    - number: 76
       name: A Photo that best represents our Village - digital or film
 - title: Cookery
   icon: cooking
   classes:
-    - number: 76
-      name: White Loaf - small
     - number: 77
-      name: Wholemeal Loaf - small
+      name: White Loaf - small
     - number: 78
-      name: 6 Bread Rolls
+      name: Wholemeal Loaf - small
     - number: 79
-      name: Artisan Loaf of any type
+      name: 6 Bread Rolls
     - number: 80
-      name: Fruit Cake
+      name: Artisan Loaf of any type
     - number: 81
-      name: Chocolate Cake
+      name: Fruit Cake
     - number: 82
-      name: 5 Scones
+      name: Chocolate Cake
     - number: 83
-      name: 5 Savoury Scones
+      name: 5 Scones
     - number: 84
-      name: Victoria Sandwich - jam filled, no icing
+      name: 5 Savoury Scones
     - number: 85
-      name: Lemon Drizzle Cake
+      name: Victoria Sandwich - jam filled, no icing
     - number: 86
-      name: 5 Cup Cakes
+      name: Lemon Drizzle Loaf
     - number: 87
-      name: A Celebration Cake
+      name: 5 Cup Cakes
     - number: 88
-      name: A Fruit Pie
+      name: A Celebration Cake
     - number: 89
-      name: 5 Pieces of Shortbread
+      name: A Fruit Pie
     - number: 90
-      name: A Savoury Quiche (not fish)
+      name: 5 Pieces of Shortbread
     - number: 91
-      name: Jam - Soft Fruit
+      name: A Savoury Quiche (not fish)
     - number: 92
-      name: Jam - Stoned Fruit
+      name: Jam - Soft Fruit
     - number: 93
-      name: Jam - Main ingredient to be named
+      name: Jam - Stoned Fruit
     - number: 94
-      name: Lemon Curd
+      name: Jam - Main ingredient to be named
     - number: 95
-      name: Marmalade
+      name: Lemon Curd
     - number: 96
-      name: Fruit Jelly Preserve
+      name: Marmalade
     - number: 97
-      name: Chutney - Main ingredient to be named
+      name: Fruit Jelly Preserve
     - number: 98
-      name: Pickles
+      name: Chutney - Main ingredient to be named
     - number: 99
+      name: Pickles
+    - number: 100
       name: Any 5 items from classes 76 - 99 displayed in a box or basket not to exceed 61 x 61 cm
 - title: Under 18'S
   icon: children
   classes:
-    - number: 100
-      name: 5 Cup Cakes
     - number: 101
-      name: 5 Flapjack Biscuits
+      name: 5 Cup Cakes
     - number: 102
-      name: A Flower Arrangement (age up to 17 years)
+      name: 5 Flapjack Biscuits
     - number: 103
-      name: A Painting or Drawing - any subject - (age up to 7 years)
+      name: A Flower Arrangement (age up to 17 years)
     - number: 104
-      name: A Painting or Drawing - any subject - (age 8 - 17 years)
+      name: A Painting or Drawing - any subject - (age up to 7 years)
     - number: 105
-      name: Tallest Sunflower (The Sunflower Challenge Cup) Validated Photo with entrant standing alongside
+      name: A Painting or Drawing - any subject - (age 8 - 12 years)
     - number: 106
-      name: An 'Animal' made from Vegetable or Fruit (age up to 12 years)
+      name: A Painting or Drawing - any subject - (age 13 - 17 years)
     - number: 107
-      name: An 'Animal' made from Vegetable or Fruit (age 13 to 17 years)
+      name: Tallest Sunflower (The Sunflower Challenge Cup) Validated Photo with entrant standing alongside
     - number: 108
-      name: A Miniature Garden - in a tray maximum 36 x 22 cm
+      name: An 'Animal' made from Vegetable or Fruit (age up to 7 years)
     - number: 109
+      name: An 'Animal' made from Vegetable or Fruit (age 8 - 12 years)
+    - number: 110
+      name: An 'Animal' made from Vegetable or Fruit (age 13 - 17 years)
+    - number: 111
+      name: A Miniature Garden - in a tray maximum 36 x 22 cm
+    - number: 112
       name: A Photographic Print (age up to 17 years)
-
