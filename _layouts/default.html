@@ -6,7 +6,11 @@
 
     {% seo %}
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+          rel="stylesheet">
+
     <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon-32x32.png">
@@ -49,8 +53,6 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>
@@ -61,15 +63,17 @@
     </div>
 </main>
 
-<div class="container" id="contact">
-    <div class="align-center">
-        <span class="image">{% include icons/site.html icon="mail" %}</span>
-    </div>
-    <h2 class="title">Contact us</h2>
-    <hr>
-    <div class="contact">
-        <p>If you have any questions about the show please reach out to one of the committee at</p>
-        <h3>AlderleyEdgeVillageShow@gmail.com</h3>
+<div class="darker">
+    <div class="container" id="contact">
+        <div class="align-center">
+            <span class="image">{% include icons/site.html icon="mail" %}</span>
+        </div>
+        <h2 class="title">Contact us</h2>
+        <hr>
+        <div class="contact">
+            <p>If you have any questions about the show please reach out to one of the committee at</p>
+            <h3>AlderleyEdgeVillageShow@gmail.com</h3>
+        </div>
     </div>
 </div>
 <footer>

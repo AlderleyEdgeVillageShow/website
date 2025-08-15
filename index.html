@@ -109,12 +109,12 @@ title: The Alderley Edge Village Show
 
     <h2 class="title">Schedule Of Classes</h2>
     <hr>
-
     <div>
-        <!--        <p>The schedule of classes is defined alongside their category, a printable copy along with the entry form is-->
-        <!--            downloadable below...</p>-->
-        <p> The final Schedule of classes is yet to be confirmed for 2025, the below is the schedule used in 2024, The
-            committee reserve the right to make alterations up until the final schedule is released.</p>
+                <p>The schedule of classes is defined alongside their category, a printable copy along with the entry form is
+                    downloadable below...</p>
+
+<!--        <p> The final Schedule of classes is yet to be confirmed for 2025, the below is the schedule used in 2024, The-->
+<!--            committee reserve the right to make alterations up until the final schedule is released.</p>-->
 
         {% for classes in site.data.classes %}
         <div class="center" id={{classes.icon}}>
@@ -122,6 +122,15 @@ title: The Alderley Edge Village Show
                 <div class="image">{% include icons/site.html icon=classes.icon %}</div>
                 <h3>{{ classes.title }}</h3>
                 <hr/>
+                <h5>{{ classes.notes }}</h5>
+                {% if {{classes.rules | size}} > 0 %}
+                <div class="rules center">
+                    <h4>Show guidelines for Fruit and Vegetable Classes</h4>
+                    {% for rule in classes.rules %}
+                    <h5> {{ rule }}</h5>
+                    {% endfor %}
+                </div>
+                {% endif %}
             </div>
             <div class="container">
                 <div class="items">
@@ -148,7 +157,7 @@ title: The Alderley Edge Village Show
             from June onwards, or click the Download link below to print one for yourself.</p>
         <div class="thirds">
             <ul class="no-bullets">
-                <li><p>Alderley Edge Library</p></li>
+                <li><p>Alderley Edge Allotments</p></li>
                 <li><p>Lily &amp; Rosie cafe</p></li>
 
             </ul>
@@ -179,6 +188,25 @@ title: The Alderley Edge Village Show
 </div>
 
 <div class="container">
+
+    <h3 class="title">Show Rules for Exhibitors</h3>
+    <hr>
+    <p> Check that your entry matches the description for the class and read the Rules of the show carefully.</p>
+    <p> Any explicit size requirements in the class should be honoured, but if not specified, no exhibit should require more than 61 x 61 cm to display, including any textiles and crafts classes.</p>
+
+    <div class="rules">
+        <ol>
+            {% for rule in site.data.showrules %}
+            <li><p>{{ rule }}</p></li>
+            {% endfor %}
+        </ol>
+        <h5>On all these and other matters, the decision of the show committee and its officers will be final.</h5>
+    </div>
+    <br/>
+</div>
+
+<div class="darker">
+<div class="container">
     <br/>
     <div class="align-center">
         <span class="image">{% include icons/site.html icon="charity" %}</span>
@@ -196,6 +224,7 @@ title: The Alderley Edge Village Show
         </div>
     </div>
     <br/>
+</div>
 </div>
 
 <!--<div class="darker">-->
@@ -221,18 +250,16 @@ title: The Alderley Edge Village Show
 <!--    </div>-->
 <!--</div>-->
 
-<div class="darker">
-    <div class="container">
-        <a class="instagram align-center" target="_blank"
-           href="https://www.instagram.com/{{ site.data.company.instagram }}">
-            {% include icons/social-media.html social_icon="instagram" %}
-        </a>
-        <h2 class="title">Instagram</h2>
-        <p></p>
-        <hr>
-        <div class="taggbox" style="width:100%;height:100%" data-widget-id="138479" data-tags="false"></div>
-        <script src="https://widget.taggbox.com/embed-lite.min.js" type="text/javascript"></script>
-    </div>
+<div class="container">
+    <a class="instagram align-center" target="_blank"
+       href="https://www.instagram.com/{{ site.data.company.instagram }}">
+        {% include icons/social-media.html social_icon="instagram" %}
+    </a>
+    <h2 class="title">Instagram</h2>
+    <p></p>
+    <hr>
+    <div class="taggbox" style="width:100%;height:100%;overflow:auto;" data-widget-id="68478" data-website="1"></div>
+    <script src="https://widget.taggbox.com/embed.min.js" type="text/javascript"></script>
 </div>
 
 <!--<div class="darker">-->

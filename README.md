@@ -43,5 +43,6 @@ This site uses the [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag) pl
 3. Copy the `<form>`'s action url
 4. Paste it into `newsletter_action` in `_config.yml`
 
+## Taggbox instagram plugin
 
 https://app.taggbox.com/widget/wall/index/138479

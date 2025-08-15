@@ -452,3 +452,19 @@ ul.no-bullets {
   }
 }
 
+.rules {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: #6a737d solid 1px;
+  ol {
+    text-align: left;
+    padding-right: 20px;
+  }
+  h4 {
+    text-decoration: underline;
+  }
+  h5 {
+    line-height: 0;
+  }
+}

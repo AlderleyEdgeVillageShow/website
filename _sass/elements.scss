@@ -34,6 +34,18 @@ h3 {
   margin: 20px 0 20px 0;
 }
 
+h4 {
+  color: #888;
+}
+
+ol {
+  color: #888;
+}
+
+h5 {
+  color: #888;
+}
+
 p {
   font-size: 1.3em;
   line-height: 1.4em;
@@ -119,7 +131,7 @@ form {
 .center {
   margin-top: 45px;
 
-  & .image, h3 {
+  & .image, h3, h4, h5 {
     text-align: center;
   }
 

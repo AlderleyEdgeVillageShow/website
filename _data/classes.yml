@@ -37,6 +37,14 @@
       name: Geranium/Pelargonium not exceeding 15 cm pot - upright plant not trailing
 - title: Fruit & Vegetables
   icon: tomato
+  rules:
+    - <strong>Condition</strong> - Fresh and tender blemish free
+    - <strong>Uniformity</strong>  - Don't automatically pick the biggest! Entries should be well matched for shape and size
+    - <strong>Staging</strong>  - Clean, not scrubbed, attractive presentation
+    - <strong>Labelling</strong>  - Variety named, where possible, placed with your entry card
+    - <strong>Heaviest / Longest</strong>  - it is all about the weight/size and nothing else!
+    - .
+    - <br/><br/> Please visit the <a href="https://www.rhs.org.uk/">Royal Horticultural</a> website for official guidelines and judging criteria
   classes:
     - number: 18
       name: 5 different kinds of Vegetables/Fruit, displayed in a box, basket etc, not exceeding 75 x 60 cm
@@ -113,6 +121,7 @@
 
 - title: The Newcomers Class
   icon: heart
+  notes: New entrants who have not exhibited before
   classes:
    - number: 54
      name: 3 Ordinary Tomatoes
@@ -158,6 +167,7 @@
 
 - title: Photography
   icon: camera
+  notes: All photos to be 8" x 6" or less and should be mounted on a card no larger than 10" x 8" </br> maximum of 1 entry per person in each section
   classes:
     - number: 73
       name: Landscapes - digital or film
@@ -169,6 +179,7 @@
       name: A Photo that best represents our Village - digital or film
 - title: Cookery
   icon: cooking
+  notes: Always use a wax disc with Preserves
   classes:
     - number: 77
       name: White Loaf - small
@@ -220,6 +231,7 @@
       name: Any 5 items from classes 76 - 99 displayed in a box or basket not to exceed 61 x 61 cm
 - title: Under 18'S
   icon: children
+  notes: Exhibitors must be under 18 years of age on the day of the show </br> Please state age on the Entry Form as the Judges may choose to take age into account.
   classes:
     - number: 101
       name: 5 Cup Cakes
