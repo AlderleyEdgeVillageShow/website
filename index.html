@@ -6,17 +6,19 @@ title: The Alderley Edge Village Show
     <div class="container">
         <div class="column">
             <div>
-                <h1>Alderley Edge Village Show 2025</h1>
-                <p>We welcome back the Village Show in 2025 to celebrate Crafts, Nature, Creativity and
+                <h1>Alderley Edge Village Show 2026</h1>
+                <p>We welcome back the Village Show in 2026 to celebrate Crafts, Nature, Creativity and
                     Community...</p>
-                <div class="buttons">
-                    <div class="button">
-                        <a href="#categories">See the Categories</a>
-                    </div>
-                    <div class="button">
-                        <a href="#schedule">See the Schedule</a>
-                    </div>
-                </div>
+                <p>Stay tuned for more details including date, venue and schedules.
+                </p>
+<!--                <div class="buttons">-->
+<!--                    <div class="button">-->
+<!--                        <a href="#categories">See the Categories</a>-->
+<!--                    </div>-->
+<!--                    <div class="button">-->
+<!--                        <a href="#schedule">See the Schedule</a>-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
         </div>
         <div class="column">
@@ -25,207 +27,225 @@ title: The Alderley Edge Village Show
     </div>
 </header>
 
-<div class="container">
-    <div class="columns">
-        <div>
-            <img alt="collage" src="{{ site.baseurl }}/images/photo-collage-min.png">
-        </div>
-        <div>
-            <h3>{% include icons/site.html icon="calendar" %}Saturday 23rd August 2025</h3>
-
-            <p>This year's show will be held at <b>Festival Hall</b>, <i>Talbot Road, Alderley Edge. SK9 7HR</i></p>
-            <div class="button">
-                <a target="_blank"
-                   href="https://maps.google.com/maps?q=Festival+Hall%2C+Talbot+Road+Alderley+Edge+Alderley+Edge+SK9+7+United+Kingdom&sll=53.30326,-2.23309">Find
-                    Festival Hall</a>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-<div class="darker">
-    <div class="container" id="categories">
-        <h2 class="title">Categories</h2>
-        <hr>
-        <ul class="thirds">
-            <li>
-                <a href="#tomato">
-                    <div class="image">{% include icons/site.html icon="tomato" %}</div>
-                    <h3>Fruit &amp; Vegetables</h3>
-                    <p>The original &amp; biggest category, perfectly dressed Onions to the longest runner
-                        bean.</p>
-                </a>
-            </li>
-            <li>
-                <a href="#craft">
-                    <div class="image">{% include icons/site.html icon="craft" %}</div>
-                    <h3>Domestic Crafts</h3>
-                    <p>Including Knitting, Crochet, Embroidery, cross-stitch or anything creative.</p>
-                </a>
-            </li>
-            <li>
-                <a href="#camera">
-                    <div class="image">{% include icons/site.html icon="camera" %}</div>
-                    <h3>Photography</h3>
-                    <p>Whether Digital or Film, enter your snapshots that capture subjects or landscapes.</p>
-                </a>
-            </li>
-            <li>
-                <a href="#cooking">
-                    <div class="image">{% include icons/site.html icon="cooking" %}</div>
-                    <h3>Cookery</h3>
-                    <p>From Bread to Cake to Jams and Chutney, a category for all the tasty delights.</p>
-                </a>
-            </li>
-            <li>
-                <a href="#flower">
-                    <div class="image">{% include icons/site.html icon="flower" %}</div>
-                    <h3>Flowers</h3>
-                    <p>Get growing your beautiful Gladioli &amp; Dahlias, or blow the judges away with a
-                        special Cactus or Succulent</p>
-                </a>
-            </li>
-            <li>
-                <a href="#children">
-                    <div class="image">{% include icons/site.html icon="children" %}</div>
-                    <h3>Under 18's</h3>
-                    <p>Let the young ones be creative and show their talents.</p>
-                </a>
-            </li>
-            <li>
-                <a href="#heart">
-                    <div class="image">{% include icons/site.html icon="heart" %}</div>
-                    <h3>New Entrants</h3>
-                    <p>A category for the Newcomers, dip your toe in the water of the show, next year you could
-                        be show winner.</p>
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-
-<div class="container" id="schedule">
-
-    <h2 class="title">Schedule Of Classes</h2>
-    <hr>
-    <div>
-                <p>The schedule of classes is defined alongside their category, a printable copy along with the entry form is
-                    downloadable below...</p>
-
-<!--        <p> The final Schedule of classes is yet to be confirmed for 2025, the below is the schedule used in 2024, The-->
-<!--            committee reserve the right to make alterations up until the final schedule is released.</p>-->
-
-        {% for classes in site.data.classes %}
-        <div class="center" id={{classes.icon}}>
-            <div class="classes">
-                <div class="image">{% include icons/site.html icon=classes.icon %}</div>
-                <h3>{{ classes.title }}</h3>
-                <hr/>
-                <h5>{{ classes.notes }}</h5>
-                {% if {{classes.rules | size}} > 0 %}
-                <div class="rules center">
-                    <h4>Show guidelines for Fruit and Vegetable Classes</h4>
-                    {% for rule in classes.rules %}
-                    <h5> {{ rule }}</h5>
-                    {% endfor %}
-                </div>
-                {% endif %}
-            </div>
-            <div class="container">
-                <div class="items">
-
-                    {% for class in classes.classes %}
-                    <p class="classes-item">
-                        <span class="classes-item-number">{{ class.number }}.</span>
-                        <span class="classes-item-name">{{ class.name }}</span>
-                    </p>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-</div>
 <div class="darker">
     <div class="container">
-
-        <h3 class="title">Entry Forms and Downloads</h3>
-        <hr/>
-
-        <p>This year's Schedule of Classes and Entry-Form will be available to collect from the following locations
-            from June onwards, or click the Download link below to print one for yourself.</p>
-        <div class="thirds">
-            <ul class="no-bullets">
-                <li><p>Alderley Edge Allotments</p></li>
-                <li><p>Lily &amp; Rosie cafe</p></li>
-
-            </ul>
-            <ul class="no-bullets">
-                <li><p>St. Philips Church</p></li>
-                <li><p>Wilmslow Garden Centre</p></li>
-            </ul>
-            <ul class="no-bullets">
-                <li><p>Nook &amp; Cranny</p></li>
-                <li><p>Parkers Garden Centre</p></li>
-            </ul>
-        </div>
+        <a class="image align-center" target="_blank"
+           href="./history-2025">
+            {% include icons/site.html icon="trophy" %}
+        </a>
+        <h2 class="title">Show Review 2025</h2>
+        <hr>
+        <p>The Alderley Edge Village Show 2025 once again proved to be a vibrant and celebrated event, building on the success of previous years. With over 450 impressive exhibits and a tremendous turnout, hundreds of visitors came together to support their local community. Read more about the winners and everyone who made the event possible... </p>
         <div class="button align-center">
-            <a download href="/images/2025-village-show-schedule.pdf">{% include icons/site.html icon="download" %}
-                Download Schedule</a>
+            <a href="./history-2025">
+                Read the Review here...</a>
         </div>
-        <div class="button align-center">
-            <a download href="/images/classes.pdf">{% include icons/site.html icon="download" %}
-                Download Simplified Classes</a>
-        </div>
-        <div class="button align-center">
-            <a download href="/images/2025-entry-form.pdf">{% include icons/site.html icon="download" %}
-                Download Entry Form</a>
-        </div>
-        <br/>
-        <p class="align-center">It's not about the winning it's about the taking part...</p>
+        </br>
     </div>
 </div>
 
-<div class="container">
+<!--<div class="container">-->
+<!--    <div class="columns">-->
+<!--        <div>-->
+<!--            <img alt="collage" src="{{ site.baseurl }}/images/photo-collage-min.png">-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <h3>{% include icons/site.html icon="calendar" %}Saturday 23rd August 2025</h3>-->
 
-    <h3 class="title">Show Rules for Exhibitors</h3>
-    <hr>
-    <p> Check that your entry matches the description for the class and read the Rules of the show carefully.</p>
-    <p> Any explicit size requirements in the class should be honoured, but if not specified, no exhibit should require more than 61 x 61 cm to display, including any textiles and crafts classes.</p>
+<!--            <p>This year's show will be held at <b>Festival Hall</b>, <i>Talbot Road, Alderley Edge. SK9 7HR</i></p>-->
+<!--            <div class="button">-->
+<!--                <a target="_blank"-->
+<!--                   href="https://maps.google.com/maps?q=Festival+Hall%2C+Talbot+Road+Alderley+Edge+Alderley+Edge+SK9+7+United+Kingdom&sll=53.30326,-2.23309">Find-->
+<!--                    Festival Hall</a>-->
+<!--            </div>-->
 
-    <div class="rules">
-        <ol>
-            {% for rule in site.data.showrules %}
-            <li><p>{{ rule }}</p></li>
-            {% endfor %}
-        </ol>
-        <h5>On all these and other matters, the decision of the show committee and its officers will be final.</h5>
-    </div>
-    <br/>
-</div>
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
-<div class="darker">
-<div class="container">
-    <br/>
-    <div class="align-center">
-        <span class="image">{% include icons/site.html icon="charity" %}</span>
-    </div>
-    <h2 class="title">Supporting Charity</h2>
-    <hr>
-    <div class="columns">
-        <div>
-            <p>We are proud to announce that for 2025 the chosen charity is <strong>The Christie Charity</strong>.
-            </p>
-        </div>
-        <div class="align-center">
-            <a href="https://www.christie.nhs.uk/the-christie-charity" target="_blank">
-                <img alt="The Christie Charity" src="{{ site.baseurl }}/images/christie-charity.png"></a>
-        </div>
-    </div>
-    <br/>
-</div>
-</div>
+<!--<div class="darker">-->
+<!--    <div class="container" id="categories">-->
+<!--        <h2 class="title">Categories</h2>-->
+<!--        <hr>-->
+<!--        <ul class="thirds">-->
+<!--            <li>-->
+<!--                <a href="#tomato">-->
+<!--                    <div class="image">{% include icons/site.html icon="tomato" %}</div>-->
+<!--                    <h3>Fruit &amp; Vegetables</h3>-->
+<!--                    <p>The original &amp; biggest category, perfectly dressed Onions to the longest runner-->
+<!--                        bean.</p>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#craft">-->
+<!--                    <div class="image">{% include icons/site.html icon="craft" %}</div>-->
+<!--                    <h3>Domestic Crafts</h3>-->
+<!--                    <p>Including Knitting, Crochet, Embroidery, cross-stitch or anything creative.</p>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#camera">-->
+<!--                    <div class="image">{% include icons/site.html icon="camera" %}</div>-->
+<!--                    <h3>Photography</h3>-->
+<!--                    <p>Whether Digital or Film, enter your snapshots that capture subjects or landscapes.</p>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#cooking">-->
+<!--                    <div class="image">{% include icons/site.html icon="cooking" %}</div>-->
+<!--                    <h3>Cookery</h3>-->
+<!--                    <p>From Bread to Cake to Jams and Chutney, a category for all the tasty delights.</p>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#flower">-->
+<!--                    <div class="image">{% include icons/site.html icon="flower" %}</div>-->
+<!--                    <h3>Flowers</h3>-->
+<!--                    <p>Get growing your beautiful Gladioli &amp; Dahlias, or blow the judges away with a-->
+<!--                        special Cactus or Succulent</p>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#children">-->
+<!--                    <div class="image">{% include icons/site.html icon="children" %}</div>-->
+<!--                    <h3>Under 18's</h3>-->
+<!--                    <p>Let the young ones be creative and show their talents.</p>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#heart">-->
+<!--                    <div class="image">{% include icons/site.html icon="heart" %}</div>-->
+<!--                    <h3>New Entrants</h3>-->
+<!--                    <p>A category for the Newcomers, dip your toe in the water of the show, next year you could-->
+<!--                        be show winner.</p>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--<div class="container" id="schedule">-->
+
+<!--    <h2 class="title">Schedule Of Classes</h2>-->
+<!--    <hr>-->
+<!--    <div>-->
+<!--                <p>The schedule of classes is defined alongside their category, a printable copy along with the entry form is-->
+<!--                    downloadable below...</p>-->
+
+<!--&lt;!&ndash;        <p> The final Schedule of classes is yet to be confirmed for 2025, the below is the schedule used in 2024, The&ndash;&gt;-->
+<!--&lt;!&ndash;            committee reserve the right to make alterations up until the final schedule is released.</p>&ndash;&gt;-->
+
+<!--        {% for classes in site.data.classes %}-->
+<!--        <div class="center" id={{classes.icon}}>-->
+<!--            <div class="classes">-->
+<!--                <div class="image">{% include icons/site.html icon=classes.icon %}</div>-->
+<!--                <h3>{{ classes.title }}</h3>-->
+<!--                <hr/>-->
+<!--                <h5>{{ classes.notes }}</h5>-->
+<!--                {% if {{classes.rules | size}} > 0 %}-->
+<!--                <div class="rules center">-->
+<!--                    <h4>Show guidelines for Fruit and Vegetable Classes</h4>-->
+<!--                    {% for rule in classes.rules %}-->
+<!--                    <h5> {{ rule }}</h5>-->
+<!--                    {% endfor %}-->
+<!--                </div>-->
+<!--                {% endif %}-->
+<!--            </div>-->
+<!--            <div class="container">-->
+<!--                <div class="items">-->
+
+<!--                    {% for class in classes.classes %}-->
+<!--                    <p class="classes-item">-->
+<!--                        <span class="classes-item-number">{{ class.number }}.</span>-->
+<!--                        <span class="classes-item-name">{{ class.name }}</span>-->
+<!--                    </p>-->
+<!--                    {% endfor %}-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        {% endfor %}-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--<div class="darker">-->
+<!--    <div class="container">-->
+
+<!--        <h3 class="title">Entry Forms and Downloads</h3>-->
+<!--        <hr/>-->
+
+<!--        <p>This year's Schedule of Classes and Entry-Form will be available to collect from the following locations-->
+<!--            from June onwards, or click the Download link below to print one for yourself.</p>-->
+<!--        <div class="thirds">-->
+<!--            <ul class="no-bullets">-->
+<!--                <li><p>Alderley Edge Allotments</p></li>-->
+<!--                <li><p>Lily &amp; Rosie cafe</p></li>-->
+
+<!--            </ul>-->
+<!--            <ul class="no-bullets">-->
+<!--                <li><p>St. Philips Church</p></li>-->
+<!--                <li><p>Wilmslow Garden Centre</p></li>-->
+<!--            </ul>-->
+<!--            <ul class="no-bullets">-->
+<!--                <li><p>Nook &amp; Cranny</p></li>-->
+<!--                <li><p>Parkers Garden Centre</p></li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--        <div class="button align-center">-->
+<!--            <a download href="/images/2025-village-show-schedule.pdf">{% include icons/site.html icon="download" %}-->
+<!--                Download Schedule</a>-->
+<!--        </div>-->
+<!--        <div class="button align-center">-->
+<!--            <a download href="/images/classes.pdf">{% include icons/site.html icon="download" %}-->
+<!--                Download Simplified Classes</a>-->
+<!--        </div>-->
+<!--        <div class="button align-center">-->
+<!--            <a download href="/images/2025-entry-form.pdf">{% include icons/site.html icon="download" %}-->
+<!--                Download Entry Form</a>-->
+<!--        </div>-->
+<!--        <br/>-->
+<!--        <p class="align-center">It's not about the winning it's about the taking part...</p>-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--<div class="container">-->
+
+<!--    <h3 class="title">Show Rules for Exhibitors</h3>-->
+<!--    <hr>-->
+<!--    <p> Check that your entry matches the description for the class and read the Rules of the show carefully.</p>-->
+<!--    <p> Any explicit size requirements in the class should be honoured, but if not specified, no exhibit should require more than 61 x 61 cm to display, including any textiles and crafts classes.</p>-->
+
+<!--    <div class="rules">-->
+<!--        <ol>-->
+<!--            {% for rule in site.data.showrules %}-->
+<!--            <li><p>{{ rule }}</p></li>-->
+<!--            {% endfor %}-->
+<!--        </ol>-->
+<!--        <h5>On all these and other matters, the decision of the show committee and its officers will be final.</h5>-->
+<!--    </div>-->
+<!--    <br/>-->
+<!--</div>-->
+
+<!--<div class="darker">-->
+<!--    <div class="container">-->
+<!--        <br/>-->
+<!--        <div class="align-center">-->
+<!--            <span class="image">{% include icons/site.html icon="charity" %}</span>-->
+<!--        </div>-->
+<!--        <h2 class="title">Supporting Charity</h2>-->
+<!--        <hr>-->
+<!--        <div class="columns">-->
+<!--            <div>-->
+<!--                <p>We are proud to announce that for 2025 the chosen charity is <strong>The Christie Charity</strong>.-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            <div class="align-center">-->
+<!--                <a href="https://www.christie.nhs.uk/the-christie-charity" target="_blank">-->
+<!--                    <img alt="The Christie Charity" src="{{ site.baseurl }}/images/christie-charity.png"></a>-->
+<!--            </div>-->
+<!--            <br/>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 <!--<div class="darker">-->
 <!--    <div class="container">-->
